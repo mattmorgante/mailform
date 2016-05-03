@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
   resources :subscribers
   root 'subscribers#index'
-  get 'subscribers/index'
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
